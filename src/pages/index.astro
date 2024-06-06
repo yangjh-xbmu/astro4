@@ -47,30 +47,36 @@ import Card from "../components/Card.astro";
         在VS Code中的终端中，运行：npm run dev，点击出现的地址，即可预览项目效果
       </li>
       <li>还可以通过Zeabur、Vercel部署到现实网络。</li>
+      <ol>
+        <li>在Github中新建仓库，然后将建成的仓库与第2步生成的目录建立联系。</li>
+        <li>在Vs Code中将本地仓库推送到远程仓库。</li>
+        <li>在Vercel中导入Github仓库，点击deploy，等待即可。</li>
+        <li>后续只需在本地执行推送即可实现网站的更新。</li>
+      </ol>
     </ol>
-    <ul role="list" class="link-card-grid">
-      <Card
-        href="https://docs.astro.build/"
-        title="Documentation"
-        body="Learn how Astro works and explore the official API docs."
-      />
-      <Card
-        href="https://astro.build/integrations/"
-        title="Integrations"
-        body="Supercharge your project with new frameworks and libraries."
-      />
-      <Card
-        href="https://astro.build/themes/"
-        title="Themes"
-        body="Explore a galaxy of community-built starter themes."
-      />
-      <Card
-        href="https://astro.build/chat/"
-        title="Community"
-        body="Come say hi to our amazing Discord community. ❤️"
-      />
-    </ul>
   </main>
+  <ul role="list" class="link-card-grid">
+    <Card
+      href="https://docs.astro.build/"
+      title="Documentation"
+      body="Learn how Astro works and explore the official API docs."
+    />
+    <Card
+      href="https://astro.build/integrations/"
+      title="Integrations"
+      body="Supercharge your project with new frameworks and libraries."
+    />
+    <Card
+      href="https://astro.build/themes/"
+      title="Themes"
+      body="Explore a galaxy of community-built starter themes."
+    />
+    <Card
+      href="https://astro.build/chat/"
+      title="Community"
+      body="Come say hi to our amazing Discord community. ❤️"
+    />
+  </ul>
 </Layout>
 
 <style>
