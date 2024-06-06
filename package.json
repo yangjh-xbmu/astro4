@@ -10,6 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@zeabur/astro-adapter": "^1.0.5",
     "astro": "^4.9.3"
   }
 }
